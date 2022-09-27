@@ -1,2 +1,2 @@
-# BlockShop
-Blockshop for Infinity HCF (MIERDA HCF*)
+# BlockShop4alkaedaavhcf
+Plugin complementario para alkaedaavhcf
