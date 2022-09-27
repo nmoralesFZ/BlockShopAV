@@ -1,12 +1,5 @@
-name: BlockShop
-version: 0.1
-author: JuqnGOOD
-main: juqn\blockshop\BlockShop
+name: bs4alkaedaavhcf
+version: 1.0
+author: nmoralesFZ
+main: bsalkaedaav\blockshop\bs4alkaedaavhcf
 api: 3.0.0
-permissions:
-  npc.blockshop.command:
-    description: Permission for /blockshop npc
-    default: op
-  remove.npc.blockshop:
-    description: Permission for remove npc
-    default: op
