@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace juqn\blockshop\entity;
+namespace bsalkaedaav\bsalkaedaavhcf\entity;
 
-use juqn\blockshop\utils\Utils;
+use bsalkaedaav\bsalkaedaavhcf\utils\Utils;
 use pocketmine\entity\Human;
 use pocketmine\event\entity\EntityDamageByEntityEvent;
 use pocketmine\event\entity\EntityDamageEvent;
 use pocketmine\nbt\tag\CompoundTag;
 use pocketmine\utils\TextFormat;
-use VitalHCF\player\Player;
+use alkaedaav\player\Player;
 
 class BlockShopEntity extends Human
 {
@@ -20,7 +20,7 @@ class BlockShopEntity extends Human
         parent::initEntity();
         $this->setImmobile(true);
         $this->setNameTagAlwaysVisible(true);
-        $this->setNameTag(TextFormat::colorize('&l&a  × NEW ×&r' . PHP_EOL . '&6Block Shop' . PHP_EOL . '&r&o&7/blockshop'));
+        $this->setNameTag(TextFormat::colorize('&l&a¡Toca para usar!&r' . PHP_EOL . '&6&l&oBlockShop' . PHP_EOL . '&r&7Usa también /blockshop'));
     }
 
     /**

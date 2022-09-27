@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace juqn\blockshop\command;
+namespace bsalkaedaav\bsalkaedaavhcf\command;
 
-use juqn\blockshop\entity\BlockShopEntity;
-use juqn\blockshop\utils\Utils;
+use bsalkaedaav\bsalkaedaavhcf\entity\BlockShopEntity;
+use bsalkaedaav\bsalkaedaavhcf\utils\Utils;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\entity\Entity;
 use pocketmine\nbt\tag\CompoundTag;
 use pocketmine\nbt\tag\StringTag;
 
-use VitalHCF\Factions;
-use VitalHCF\player\Player;
+use alkaedaav\Factions;
+use alkaedaav\player\Player;
 
 class BlockShopCommand extends Command
 {
