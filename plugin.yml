@@ -1,7 +1,7 @@
-name: bs4alkaedaavhcf
+name: BlockShopAV
 version: 1.0
 author: nmoralesFZ
-main: bsalkaedaav\bs4alkaedaavhcf\blockshop
+main: bsalkaedaav\bsalkaedaavhcf\blockshop
 api: 3.0.0
 depend:
 - alkaedaavhcf
