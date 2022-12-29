@@ -1,5 +1,5 @@
-# Blockshop4alkaedaavhcf
-Blockshop4alkaedaavhcf es un plugin de tienda creado originalmente por Juqn hecho para el plugin VitalHCF, esta versión está modificada y traducida al español para poder usarse en alkaedaavhcf.
+# BlockShopAV
+BlockShopAV es un plugin de tienda creado originalmente por Juqn hecho para el plugin VitalHCF, esta versión está modificada y traducida al español para poder usarse en alkaedaavhcf.
 
 El plugin está un poco "bugueado" debido a que es un plugin antiguo, con el tiempo se irá mejorando la estabilidad y se repararán todos los errores.
 Recomiendo que bajes el .phar más reciente en la parte de [lanzamientos](https://github.com/nmoralesfz/blockshop4alkaedaavhcf/releases) porque constántemente se harán cambios en el código fuente que pueden detener el correcto funcionamiento del plugin.
