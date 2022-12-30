@@ -1,8 +1,5 @@
 name: BlockShopAV
-version: 1.0
+version: 1.0.2
 author: nmoralesFZ
 main: bsalkaedaav\bsalkaedaavhcf\blockshop
 api: 3.0.0
-depend:
-- alkaedaavhcf
-- Slapper
