@@ -19,7 +19,7 @@ Recomiendo que bajes el .phar más reciente en la parte de [lanzamientos](https:
 
 ## Dependencias
 Es muy importante que tengas estos plugins para poder iniciar el servidor, sino lo haces el plugin directamente no funcionará.
- - [Slapper](https://poggit.pmmp.io/r/151807/Slapper.phar)
+ - [Slapper](https://files.catbox.moe/zcbcsp.phar)
  - [alkaedaavhcf](https://github.com/nmoralesfz/alkaedaavhcf/releases)
 
 ## Permisos y comandos
