@@ -12,7 +12,7 @@ Recomiendo que bajes el .phar más reciente en la parte de [lanzamientos](https:
 5. Inicia tu servidor
 6. Entra a tu servidor y define la región de Spawn
 7. Entra y colócate en donde quieras que esté la tienda
-8. Ingresa en el chat el comando "/slapper spawn human &l&a¡Toca para usar!&r{line}&6&l&oBlockShop{line}&r&7Usa también /blockshop" (sin comillas)
+8. Ingresa en el chat el comando "/slapper spawn human §l§a¡Toca para usar!§r{line}§6§l§oBlockShop{line}§r§7Usa también /blockshop" (sin comillas)
 9. Guarda la ID que te dejó en el chat al crear el NPC
 10. Ingresa en el chat el comando "/slapper edit ID addcmd rca {player} blockshop" (sin comillas)
 11. Opcionalmente puedes agregar otro comando avisando de que tarda un poco en abrir la tienda "/slapper edit ID addcmd msg {player} Espera un segundo y abrirá tu tienda..." (sin comillas)
