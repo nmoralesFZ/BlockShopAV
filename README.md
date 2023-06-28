@@ -4,6 +4,9 @@ BlockShopAV es un plugin de tienda creado originalmente por Juqn hecho para el p
 El plugin está un poco "bugueado" debido a que es un plugin antiguo, con el tiempo se irá mejorando la estabilidad y se repararán todos los errores.
 Recomiendo que bajes el .phar más reciente en la parte de [lanzamientos](https://github.com/nmoralesfz/blockshop4alkaedaavhcf/releases) porque constántemente se harán cambios en el código fuente que pueden detener el correcto funcionamiento del plugin.
 
+## OBSOLETO!!
+Este plugin está obsoleto, no funciona en nuevas versiones de BetterAltay y no hay planes de revivir el proyecto.
+
 ## Configuración
 1. Descarga la versión más reciente desde la parte de lanzamientos
 2. Coloca el plugin en la carpeta "plugins" de tu servidor
