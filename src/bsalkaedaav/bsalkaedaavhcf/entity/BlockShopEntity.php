@@ -5,22 +5,30 @@ declare(strict_types=1);
 namespace bsalkaedaav\bsalkaedaavhcf\entity;
 
 use bsalkaedaav\bsalkaedaavhcf\utils\Utils;
-use pocketmine\entity\Human;
+use pocketmine\entity\passive\Villager;
 use pocketmine\event\entity\EntityDamageByEntityEvent;
 use pocketmine\event\entity\EntityDamageEvent;
-use pocketmine\nbt\tag\CompoundTag;
+use pocketmine\Player;
 use pocketmine\utils\TextFormat;
-use alkaedaav\player\Player;
 
-class BlockShopEntity extends Human
+class BlockShopEntity extends Villager
 {
-
     public function initEntity(): void
     {
         parent::initEntity();
         $this->setImmobile(true);
         $this->setNameTagAlwaysVisible(true);
-        $this->setNameTag(TextFormat::colorize('&l&a¡Toca para usar!&r' . PHP_EOL . '&6&l&oBlockShop' . PHP_EOL . '&r&7Usa también /blockshop'));
+        $this->setNameTag(TextFormat::colorize("&l&a¡Golpéame!&r \n &6&l&oBlockShop \n &r&7Usa también /blockshop"));
+    }
+
+    /**
+     * Aplica la rotación del jugador al NPC.
+     *
+     * @param Player $player
+     */
+    public function setRotationFromPlayer(Player $player): void
+    {
+        $this->setRotation($player->getYaw(), $player->getPitch());
     }
 
     /**
